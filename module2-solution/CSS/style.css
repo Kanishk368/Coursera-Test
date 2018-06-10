@@ -3,22 +3,28 @@
 }
 h1{
 	text-align: center;
+  text-transform: uppercase;
 }
 .row {
 	width: 100%;
+
 }
 .row section {
 	
 	padding: 0px 10px 0px 10px;
+  margin-bottom: 25px;
 	
 }
 .properties {
 	position: relative;
 	border: 1px solid #222;
+  background-color: #669999;
+  color: white;
+  font-size: 1.1em;
 }
 .properties p {
 	margin-top: 25px;
-	padding: 10px;
+	padding: 15px;
 }
 .row section div span {
 	position: absolute;
@@ -28,9 +34,18 @@ h1{
 	margin-bottom: 5px;
 	padding: 3px;
 	border: 1px solid #222;
+  width: 106px;
+  text-align: center;
+  font-size: 1.2em;
 }
-.row section div span:nth-child(1){
-	background-color: green;
+#chicken {
+  background-color: #ff751a;
+}
+#beef {
+  background-color: #4dff4d;
+}
+#sushi {
+  background-color:  #cc33ff;
 }
 /********** For Desktop **********/
 @media (min-width: 992px) {
@@ -117,6 +132,9 @@ h1{
   }
   .col-md-12 {
     width: 100%;
+  }
+ .properties {
+    min-height: 150px;
   }
 }
 
